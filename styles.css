@@ -1,23 +1,69 @@
 ```css
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
+    background-color: #f5f5f5;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #3a8dca;
     color: white;
     padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
 main {
     margin: 2em 0;
 }
 
+section {
+    margin: 2em 0;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin: 1em;
+    padding: 1em;
+    width: 250px;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
 footer {
-    background-color: #f1f1f1;
+    background-color: #3a8dca;
+    color: white;
     padding: 1em 0;
     position: fixed;
     width: 100%;
